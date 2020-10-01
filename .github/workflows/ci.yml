@@ -26,7 +26,8 @@ jobs:
       - name: setup
         run: npm ci
 
-      - run: npm run build
+      - name: build
+        run: npm run build
 
         # Runs a set of commands using the runners shell
       - name: test
