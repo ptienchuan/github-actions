@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "jest",
     "test": "jest"
   },
   "repository": {
