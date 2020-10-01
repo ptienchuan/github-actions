@@ -1,4 +1,4 @@
-import { add } from "../app";
+const { add } = require("../app");
 
 describe("Test add function", () => {
   test("First test case: ", () => {
