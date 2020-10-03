@@ -2,8 +2,8 @@ const { add } = require("../app");
 
 describe("Test add function", () => {
   test("First test case: ", () => {
-    const sum = add(1, 2);
-    expect(sum).toEqual(3);
+    const sum = add(2, 2);
+    expect(sum).toEqual(4);
   });
 
   test("Second test case: ", () => {
